@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="zh-cn">
+
+<head>
+    <link rel="icon" href="data:;base64,=">
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/desktop.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/overlay.css"> -->
+	<title></title>
+</head>
+
+<body>
+    <svg id="baseimg"></svg>
+    <svg id="dem"></svg>
+    <svg id="terrain"></svg>
+    <div id="overlay"></div>
+    <div id="enable_noncamp"></div>
+    <div id="enable_camp"></div>
+    <div id="recorder">
+        <input class="slider" type="range" value="0">
+        <button id="reverse">◀️</button>
+        <button id="play">▶️</button>
+        <button id="step_forward">⏯</button>
+    </div>
+    <canvas id="wind" y=1000 width=2048 height=1206 unselectable="on" class="unselectable"></canvas>
+
+</body>
+
+<script src="/assets/jquery-3.5.1.min.js" type="application/javascript"></script>
+<script src="/assets/datascript-0.18.13.min.js" type="application/javascript"></script>
+<script src="/assets/wkx.min.js" type="application/javascript"></script>
+<script charset='utf-8' src='/assets/bundle.js'></script>
+
+
+<!-- <link href="/assets/wind.css" rel="stylesheet" type="text/css" /> -->
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "learn_datascript",
+  "version": "1.0.0",
+  "description": "learn temporal db frontend for data driven display",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuqinghan/learn_datascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuqinghan/learn_datascript/issues"
+  },
+  "homepage": "https://github.com/xuqinghan/learn_datascript#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
